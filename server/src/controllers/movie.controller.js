@@ -16,7 +16,7 @@ export const addMovie = async (req, res) => {
     console.log("🌍 TMDB API URL:", url);
 
     const tmdbResponse = await axios.get(url);
-    console.log("✅ TMDB Data Fetched:", tmdbResponse.data.title);
+    console.log("✅ TMDB Data Fetched:", tmdbResponse.data);
 
     // ✅ Safe check for credits
     const cast = tmdbResponse.data.credits?.cast || [];
