@@ -5,7 +5,6 @@ import { Box } from '@mui/material';
 import uiConfigs from "../configs/ui.configs";
 import Container from "../components/common/Container";
 import MediaSlide from "../components/common/MediaSlide";
-
 const HomePage = () => {
   return (
     <>
